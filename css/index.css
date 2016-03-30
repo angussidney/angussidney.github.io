@@ -1,6 +1,6 @@
 #me h1 {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .identity img {
@@ -51,4 +51,10 @@
 #se {
   margin-left: 24px;
   margin-right: 24px;
+}
+
+#links li {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
 }

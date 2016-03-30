@@ -1,3 +1,5 @@
+/* DEFAULT STYLES */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +16,17 @@ body {
   margin: 0 auto;
 }
 
-.no-underline {
+p {
+  margin-bottom: 10px;
+}
+
+a:link, a:visited {
+  color: rgba(245, 124, 0, 0.87);
   text-decoration: none;
+}
+
+a:hover, a:active {
+  color: rgba(255, 152, 0, 0.87)
 }
 
 hr {
@@ -25,4 +36,37 @@ hr {
   margin-bottom: 25px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* HELPER CLASSES */
+
+.no-underline {
+  text-decoration: none;
+}
+
+/* Nav */
+
+nav ul {
+  display: block;
+  width: 600px;
+  margin: 0 auto;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+  width: 20%;
+}
+
+nav li a:link, nav li a:visited {
+  color: rgba(0, 0, 0, 0.54);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+nav li a:hover, nav li a:active {
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
 }
