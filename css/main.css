@@ -1,15 +1,28 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Helvetica;
   color: rgba(0, 0, 0, 0.87);
 }
 
 body {
-  background-color: rgba(0, 0, 0, 0.03)
+  background-color: #f8f8f8;
 }
 
 .content {
   width: 800px;
   margin: 0 auto;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+hr {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }

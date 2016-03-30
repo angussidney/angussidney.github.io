@@ -1,11 +1,6 @@
 #me h1 {
   text-align: center;
-  margin: 0 auto;
   margin-top: 50px;
-  padding-bottom: 25px;
-  margin-bottom: 25px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  width: 400px;
 }
 
 .identity img {
@@ -38,19 +33,22 @@
   margin-top: 25px;
 }
 
-#blurb span {
-  display: block;
+#flairs {
+  width: 672px;
   margin: 0 auto;
-  margin-bottom: 25px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  width: 400px;
+  margin-top: 25px;
 }
 
-#flairs {
-  margin-top: 20px;
+#flairs a {
+  display: inline-block;
+}
+
+#flairs a img {
+  width: 208px;
+  height: 58px;
 }
 
 #se {
-  width: 208px;
-  height: 58px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
