@@ -1,8 +1,19 @@
+#me h1 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  width: 400px;
+}
+
 .identity img {
   display: inline-block;
   width: 120px;
   height: 120px;
   vertical-align: middle;
+  border: none;
 }
 
 #die, #mouse {
@@ -10,11 +21,11 @@
 }
 
 #keyboard {
-  margin-right: 36px;
+  margin-right: 35px;
 }
 
 #mouse {
-  margin-left: 36px;
+  margin-left: 35px;
 }
 
 #missiles {
@@ -22,8 +33,24 @@
   height: 192px;
 }
 
-#me {
+#blurb {
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+#blurb span {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  width: 400px;
+}
+
+#flairs {
+  margin-top: 20px;
+}
+
+#se {
+  width: 208px;
+  height: 58px;
 }
