@@ -1,3 +1,12 @@
+/* todo 
+  
+  link robots text
+  link to github issues (on all pages)
+  full list of games
+  steam signature
+
+*/
+
 /* DEFAULT STYLES */
 
 * {
@@ -16,8 +25,16 @@ body {
   margin: 0 auto;
 }
 
-p {
+h1, h2, h3, h4, h5, h6, p, ul, ol {
   margin-bottom: 10px;
+}
+
+.header h1 {
+  margin-bottom: 25px;
+}
+
+ul, ol {
+  margin-left: 25px;
 }
 
 a:link, a:visited {
@@ -44,12 +61,27 @@ hr {
   text-decoration: none;
 }
 
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-justify {
+  text-align: justify;
+}
+
+/* COMPONENTS */
+
 /* Nav */
 
 nav ul {
   display: block;
   width: 600px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 nav li {
@@ -69,4 +101,25 @@ nav li a:link, nav li a:visited {
 nav li a:hover, nav li a:active {
   color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.footer p {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.footer p:first-child {
+  width: 250px;
+}
+
+.footer p:last-child {
+  width: 550px;
+  text-align: right;
 }
