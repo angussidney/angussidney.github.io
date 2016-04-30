@@ -1,6 +1,6 @@
 /*  TEAM  */
 
-Title: Angus
+Title: angussidney (Angus)
 Site: angussidney.github.io
 Email: angussidney17@gmail.com
 Location: NSW, Australia
@@ -9,7 +9,7 @@ Location: NSW, Australia
 
 
 /*  SITE  */
-Last Update: YYYY/MM/DD
+Last Update: 2016/04/30
 Standards: HTML5, CSS3
 Components: jQuery
-Software: Brackets.io, Github
+Software: Brackets.io, Github, GIMP
