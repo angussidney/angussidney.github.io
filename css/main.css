@@ -55,6 +55,14 @@ hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
+td {
+  padding-right: 20px;
+}
+
+select {
+  min-width: 120px;
+}
+
 /* HELPER CLASSES */
 
 .no-underline {
@@ -101,6 +109,16 @@ nav li a:link, nav li a:visited {
 nav li a:hover, nav li a:active {
   color: rgba(0, 0, 0, 0.87);
   text-decoration: none;
+}
+
+/* Body */
+
+.pageheader {
+  text-align: center;
+}
+
+table.hidden {
+  border: none;
 }
 
 /* Footer */

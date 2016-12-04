@@ -6,15 +6,19 @@
     <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     
     <!-- Information -->
-    <title>angussidney</title>
+    <title>Citation Machine</title>
     <link rel="author" href="/humans.txt">
     <link rel="icon" href="/favicon.ico">
     
     <!-- CSS -->
     <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/jquery-ui.min.css" rel="stylesheet">
+    <link href="/css/jquery-ui.theme.css" rel="stylesheet">
     
     <!-- JavaScript -->
-    <script src="/js/jquery/jquery-2.1.4.min.js" defer></script>
+    <script src="/js/jquery/jquery-2.1.4.min.js" async></script>
+    <script src="/js/jquery/jquery-ui.min.js" async></script>
+    <script src="/js/script.js" async></script>
   </head>
   <body>
     <div class="background">
@@ -28,6 +32,28 @@
             <a href="mailto:angussidney17@gmail.com">contact</a></li>
           </ul>
         </nav>
+        
+        <div class="pageheader"><h1>Citation Machine</h1><hr></div>
+        <div description>An ad-free citation machine for referencing in a modified APA style.</div>
+        <hr>
+        
+        <form><table class="hidden">
+          <tr>
+            <td><label for="sourcetype">Source Type</label></td>
+            <td><select id="sourcetype" title="Select one">
+              <option value="website" selected>Website</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td><label>Author</label></td>
+            <td><input type=text name="firstname" placeholder="First Name"><br>
+            <input type=text name="firstname" placeholder="Last Name"></td>
+          </tr>
+          <tr>
+            <td><label for="date">Date</label></td>
+            <td><input id="date" type="date"></td>
+          </tr>
+        </table></form>
         
         <div class="footer">
           <p>Copyright © 2016 angussidney</p><p>
