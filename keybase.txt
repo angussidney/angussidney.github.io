@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/angussidney
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://angussidney.github.io
+  * I am angussidney (https://keybase.io/angussidney) on keybase.
+  * I have a public key with fingerprint 9B04 6BAD 6FE8 9547 4B70  B222 2E33 5B3D FFD9 7CA2
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c009030d94d63c2840723b7b66d960b0c288f7eae58494322f0760b04a22c7500a",
+            "fingerprint": "9b046bad6fe895474b70b2222e335b3dffd97ca2",
+            "host": "keybase.io",
+            "key_id": "2e335b3dffd97ca2",
+            "kid": "0101c009030d94d63c2840723b7b66d960b0c288f7eae58494322f0760b04a22c7500a",
+            "uid": "74afe499a6cc56e0c474cea4a1955e19",
+            "username": "angussidney"
+        },
+        "service": {
+            "hostname": "angussidney.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481418156,
+    "expire_in": 157680000,
+    "prev": "ce38d25f3da2094cc4fde0dec0629626273465b46cde498c958715d59e55833e",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.60
+Comment: https://keybase.io/crypto
+
+yMIsAnicrVJZSBVRGB5b9ZZtFK1UDm2E6ZmZc2a5VBRtRII9JNp6O3POmeugzVzv
+zNWkhGiPijZakCTDgjIJohRtVYkgSiq0ogdD20Cqh6ggjZYzVk/12Hk5nP//vu98
+/8d/O7WvEEoq/F6/rlbIrky611SVEPKyztZsEk2XlorhTWIB671YIWWeHymwqRgW
+gQQkAoABFEANSFWFyDoEmqyYmqmq1FCBCXhJtzSGGdKhARVZtoAW1CGWZaIhALCY
+Llq2E2XxWNx2fC5r8K5qYqpaTDcQ1KCpAVPmhykKMhVqWdTQCJY5Md/1AgY3Z2KP
+Zdgur/FHpNfeP/D/2XeiV06D2GLQMLBKCFIZINwyYRhiyUCISUYA9FjcwRsYR2Mn
+mvA8mzo80LJ0kTeKbcKCbINh/gZlRG0/P2H+mi0Wd32XuIUcku/7MS8cSPilsYBT
+wszIb7WIaTuUZ8oZxSzu2a4jhiWOJL4dyEtQl6CkS0hNF9nGmB1nETtAIE3VAT/B
+P6yYSxKm6FRGlkKxDAxICLQoA5QRoMqGKquypkAVmVAllAegEwPpmoQoMhhCuqIw
+MZivyHHFMOQ2cZRLenbUwX4izsSy5sY1/YSkkDCgf59g14RQyrA/G5i1M1moXN3Y
+PbErr25STVre6otli0u2Xir7IjUe/z67fdmdnvIPyeV9C5ztb+qHzGip7ziPnreF
+2l7OrOqqfT/l8a39A7tmjTyRW7oXt976fAC15s7NubIoVrOlf+fUTykjVyVtrKk+
+dfRjddrwQc6+po7OsfdfTftw6d2Ip2Jmy7W6+bX71mc+27EWd4cPR45t/1a9dPSe
+VRUrJp/L2jrs/vg5D170fBl8IVWtezLp0Xwvc9eOd2deN49ZeaOoY9Re5eTurzdz
+1qdln87ZtuBh6oShDTf6VcRLjlwr1HbNyHZzX1zfUj9v3MImoftRWrtQ2cCOfGpY
+vuS1dvltXuOZb/N+XD24cPrmQ1fvnk8JHf8JY/1Idw==
+=O7W0
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/angussidney
+
+==================================================================
