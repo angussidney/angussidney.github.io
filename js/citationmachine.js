@@ -25,5 +25,5 @@ function generate(form) {
     citation = authorname + ". (" + published + "). " + title + ". Retrieved " + retrieved + " from " + url;
   }
   
-  $("#citations").append("<p>" + citation + "</p>");
+  $("#citations").prepend("<p>" + citation + "</p>");
 }

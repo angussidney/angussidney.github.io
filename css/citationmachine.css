@@ -17,3 +17,7 @@ td input, td select {
 #citations {
   margin-top: 10px;
 }
+
+#citations p:first-child {
+  font-weight: bold;
+}
