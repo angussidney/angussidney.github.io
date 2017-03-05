@@ -1,0 +1,19 @@
+td {
+  padding-right: 20px;
+}
+
+table {
+  border-spacing: 0 10px;
+}
+
+td input, td select {
+  min-width: 200px;
+}
+
+#submit {
+  min-width: 120px;
+}
+
+#citations {
+  margin-top: 10px;
+}

@@ -14,21 +14,23 @@
     <link href="/css/main.css" rel="stylesheet">
     <link href="/css/jquery-ui.min.css" rel="stylesheet">
     <link href="/css/jquery-ui.theme.css" rel="stylesheet">
+    <link href="/css/citationmachine.css" rel=stylesheet>
     
     <!-- JavaScript -->
-    <script src="/js/jquery/jquery-2.1.4.min.js" async></script>
-    <script src="/js/jquery/jquery-ui.min.js" async></script>
-    <script src="/js/script.js" async></script>
+    <script src="/js/jquery/jquery-2.1.4.min.js"></script>
+    <script src="/js/jquery/jquery-ui.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/citationmachine.js"></script>
   </head>
   <body>
     <div class="background">
       <div class="content">
         <nav>
           <ul>
-            <li><a href="index.html">home</a></li><li>
+            <li><a href="/index.html">home</a></li><li>
             <a href="#">blog</a></li><li>
             <a href="https://github.com/angussidney?tab=repositories">projects</a></li><li>
-            <a href="about.html">about</a></li><li>
+            <a href="/about.html">about</a></li><li>
             <a href="mailto:angussidney17@gmail.com">contact</a></li>
           </ul>
         </nav>
@@ -37,9 +39,11 @@
         <div description>An ad-free citation machine for referencing in a modified APA style.</div>
         <hr>
         
-        <form><table class="hidden">
+        <p><em>* required</em></p>
+        
+        <form name="citationgenerator" action="" method="get"><table class="hidden">
           <tr>
-            <td><label for="sourcetype">Source Type</label></td>
+            <td><label for="sourcetype">Source Type*</label></td>
             <td><select id="sourcetype" title="Select one">
               <option value="website" selected>Website</option>
             </select></td>
@@ -47,13 +51,29 @@
           <tr>
             <td><label>Author</label></td>
             <td><input type=text name="firstname" placeholder="First Name"><br>
-            <input type=text name="firstname" placeholder="Last Name"></td>
+            <input type=text name="lastname" placeholder="Last Name"></td>
           </tr>
           <tr>
-            <td><label for="date">Date</label></td>
-            <td><input id="date" type="date"></td>
+            <td><label for="published" class="ui-datepicker-year">Year Published</label></td>
+            <td><input id="published" name="published" type="date"></td>
           </tr>
-        </table></form>
+          <tr>
+            <td><label for="url">URL*</label></td>
+            <td><input type=url name="url" placeholder="https://example.com/"></td>
+          </tr>
+          <tr>
+            <td><label for="title">Page Title*</label></td>
+            <td><input type=text name="title"></td>
+          </tr>
+          <tr>
+            <td><label for="retrieved">Date Retrieved*</label></td>
+            <td><input id="retrieved" name="retrieved" type="date"></td>
+          </tr>
+        </table>
+        <input id="submit" type="submit" value="Generate Citation" onClick="generate(this.form)">
+        </form>
+        
+        <div id="citations"></div>
         
         <div class="footer">
           <p>Copyright © 2016 angussidney</p><p>
