@@ -19,7 +19,7 @@ function generate(form) {
     published = "n.d.";
   }
   
-  if (authorname === " ") {
+  if (authorname === ", ") {
     citation = title + ". (" + published + "). Retrieved " + retrieved + " from " + url;
   } else {
     citation = authorname + ". (" + published + "). " + title + ". Retrieved " + retrieved + " from " + url;
