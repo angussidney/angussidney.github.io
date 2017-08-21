@@ -4,23 +4,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    
+
     <!-- Information -->
     <title>Citation Machine</title>
     <link rel="author" href="/humans.txt">
     <link rel="icon" href="/favicon.ico">
-    
+
     <!-- CSS -->
     <link href="/css/main.css" rel="stylesheet">
     <link href="/css/jquery-ui.min.css" rel="stylesheet">
     <link href="/css/jquery-ui.theme.css" rel="stylesheet">
     <link href="/css/citationmachine.css" rel=stylesheet>
-    
+
     <!-- JavaScript -->
     <script src="/js/jquery/jquery-2.1.4.min.js"></script>
     <script src="/js/jquery/jquery-ui.min.js"></script>
     <script src="/js/script.js"></script>
     <script src="/js/citationmachine.js"></script>
+
+    <!-- Autopilot -->
+    <script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/",t="57c0195c591a4ef5b87e8cdcdf436b3ca0af70a620c541fbb5664006f8bd10e5",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
   </head>
   <body>
     <div class="background">
@@ -34,13 +37,13 @@
             <a href="mailto:angussidney17@gmail.com">contact</a></li>
           </ul>
         </nav>
-        
+
         <div class="pageheader"><h1>Citation Machine</h1><hr></div>
         <div description>An ad-free citation machine for referencing in a modified APA style.</div>
         <hr>
-        
+
         <p><em>* required</em></p>
-        
+
         <form name="citationgenerator" action="" method="get"><table class="hidden">
           <tr>
             <td><label for="sourcetype">Source Type*</label></td>
@@ -72,9 +75,9 @@
         </table>
         <input id="submit" type="button" value="Generate Citation" onClick="generate(this.form)">
         </form>
-        
+
         <div id="citations"></div>
-        
+
         <div class="footer">
           <p>Copyright © 2016 angussidney</p><p>
           Please report bugs and issues on <a href="https://github.com/angussidney/angussidney.github.io/issues">Github</a>, for suggestions and comments <a href="mailto:angussidney17@gmail.com">contact me.</a></p>
